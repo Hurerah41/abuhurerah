@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180">
+  <rect width="180" height="180" rx="42" fill="#0a0a0a"/>
+  <!-- H letterform -->
+  <path d="M54 44v92M114 44v92M54 90h60" stroke="#ffffff" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Signature Neon Lime dot (.dev) -->
+  <circle cx="142" cy="132" r="13" fill="#c8ff2e"/>
+</svg>
