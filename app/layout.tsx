@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from 'next';
 import { Inter, Archivo } from 'next/font/google';
+import { Analytics } from '@vercel/analytics/next';
 import '@/app/globals.css';
 
 const inter = Inter({
@@ -77,7 +78,10 @@ export default function RootLayout({
         <link rel="icon" href="/icon.svg" type="image/svg+xml" sizes="any" />
         <link rel="apple-touch-icon" href="/apple-icon.svg" />
       </head>
-      <body suppressHydrationWarning>{children}</body>
+      <body suppressHydrationWarning>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
